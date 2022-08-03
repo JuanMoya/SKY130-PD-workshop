@@ -9,3 +9,6 @@ We used the "docker" command to invoke openlane.
 
 ![flow.tcl command to run the OpenLANE flow.](step_2.png)
 We typed the "flow.tcl" command to run the openLANE flow.
+
+![package require openlane 0.9 command to load all the packages needed.](step_3.png)
+We typed the "package require openlane 0.9" command to load all the packages needed in the openLANE flow.
