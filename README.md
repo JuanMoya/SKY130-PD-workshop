@@ -18,5 +18,6 @@ The three commands mentioned above must be executed everytime we want to run the
 ![prep -design picorv32 command to prepare the design setup stage.](step_4.png)
 We prepared the design setup stage with thrv32a-e command "prep -design picorv32a"
 
-![We checkek the created files.](step_5.png)
+![We check the created files.](step_5.png)
+![We check the temp directory and the files created inside.](step_6.png)
 Then, we review the files after design preparation and run synthesis.
