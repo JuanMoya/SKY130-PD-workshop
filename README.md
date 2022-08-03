@@ -27,3 +27,10 @@ Then, we type the "run_synthesis" command.
 
 ![Synthesis successfull.](step_8.png)
 We observe that the synthesis is completed sucessfully.
+
+![Flop ratio.](step_9.png)
+We look for the flop ratio as presented above. 
+We observe that the total number of d flip-flops (dfxtp_2) is: 1613, and the total number of cells is: 14876. Thus the flop ratio is: 1613/14876 = 0.1084. The equivalent percentage is 10.84%. 
+
+![Total chip area.](step_10.png)
+The total chip area is 147712.918400.
