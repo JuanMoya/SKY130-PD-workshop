@@ -12,3 +12,5 @@ We typed the "flow.tcl" command to run the openLANE flow.
 
 ![package require openlane 0.9 command to load all the packages needed.](step_3.png)
 We typed the "package require openlane 0.9" command to load all the packages needed in the openLANE flow.
+
+The three commands mentioned above must be executed everytime we want to run the openLANE flow.
