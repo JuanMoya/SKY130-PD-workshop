@@ -23,4 +23,4 @@ We prepare the design setup stage with thrv32a-e command "prep -design picorv32a
 Then, we review the files after design preparation and run synthesis.
 
 ![We run the synthesis.](step_7.png)
-Then, we type the "run synthesis" command.
+Then, we type the "run_synthesis" command.
