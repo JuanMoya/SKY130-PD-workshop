@@ -14,3 +14,6 @@ We typed the "flow.tcl" command to run the openLANE flow.
 We typed the "package require openlane 0.9" command to load all the packages needed in the openLANE flow.
 
 The three commands mentioned above must be executed everytime we want to run the openLANE flow.
+
+![prep -design picorv32 command to prepare the design setup stage.](step_4.png)
+We prepared the design setup stage with thrv32a-e command "prep -design picorv32a"
