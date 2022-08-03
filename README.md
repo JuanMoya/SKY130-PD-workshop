@@ -7,8 +7,8 @@ Here you can find all the material that I developed from the SKY 130 PD workshop
 ![Docker command](step_1.png)
 We used the "docker" command to invoke openlane.
 
-![flow.tcl command to run the OpenLANE flow.](step_2.png)
-We typed the "flow.tcl" command to run the openLANE flow.
+![./flow.tcl -interactive command to run the OpenLANE flow.](step_2.png)
+We typed the "./flow.tcl - interactive" command to run the openLANE flow.
 
 ![package require openlane 0.9 command to load all the packages needed.](step_3.png)
 We typed the "package require openlane 0.9" command to load all the packages needed in the openLANE flow.
