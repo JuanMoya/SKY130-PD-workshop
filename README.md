@@ -24,3 +24,6 @@ Then, we review the files after design preparation and run synthesis.
 
 ![We run the synthesis.](step_7.png)
 Then, we type the "run_synthesis" command.
+
+![Synthesis successfull.](step_8.png)
+We observe that the synthesis is completed sucessfully.
