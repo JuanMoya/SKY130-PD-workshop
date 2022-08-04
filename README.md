@@ -45,3 +45,23 @@ To close the file, we click the "q" botton.
 Finally we check the reports directory.
 
 ## Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells (Lab Instance 1)
+
+![Definition of the variables for the different steps.](Day2_1.png)
+In the "/home/jsmoya07/Desktop/work/tools/openlane_working_dir/openlane/configuration" we enter the README.md file and we observe the variables used in each step.
+
+![Default parameters set for the floorplan stage.](Day2_2.png)
+Then we open the "floorplan.tcl".
+
+![Default parameters set in the "config.tcl".](Day2_3.png)
+Then we open the "config.tcl".
+
+![Default parameters set in the "config.tcl".](Day2_4.png)
+Then we open the "sky130A_sky130_fd_sc_hd_config.tcl "
+
+The priority order for the settings is "sky130A_sky130_fd_sc_hd_config.tcl" --> "config.tcl" --> "floorplan.tcl".
+
+![We run the "run_floorplan".](Day2_5.png)
+Once the priority is identified, we run the floorplan of the synthesis obtained above. It is important to mention that floorplan must be run after the synthesis command. If we shut down the session or close openlane (close the terminal), the prep and synthesis commands must be run again.
+
+![The "run_floorplan" command ends.](Day2_6.png)
+We observe that the floorplan was successfully implemented.
