@@ -26,7 +26,7 @@ Then, we review the files after design preparation and run synthesis.
 Then, we type the "run_synthesis" command.
 
 ![Synthesis successfull.](step_8.png)
-We observe that the synthesis is completed sucessfully.
+We observe that the synthesis is completed sucsessfully.
 
 ![Flop ratio.](step_9.png)
 We look for the flop ratio as presented above. 
@@ -36,8 +36,10 @@ We observe that the total number of d flip-flops (dfxtp_2) is: 1613, and the tot
 The total chip area is 147712.918400.
 
 ![Synthesized netlist file.](step_11.png)
+We use the command less picorv32a.synthesis.v to open the synthesized netlist file.
 ![Synthesized netlist.](step_12.png)
 Then we observe the synthesized netlist.
+To close the file, we click the "q" botton.
 
 ![Reports directory.](step_13.png)
 Finally we check the reports directory.
