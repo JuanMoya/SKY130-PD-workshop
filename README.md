@@ -42,4 +42,4 @@ Then we observe the synthesized netlist.
 ![Reports directory.](step_13.png)
 Finally we check the reports directory.
 
-
+## Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells (Lab Instance 1)
