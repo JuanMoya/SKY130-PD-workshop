@@ -26,7 +26,7 @@ Then, we review the files after design preparation and run synthesis.
 Then, we type the "run_synthesis" command.
 
 ![Synthesis successfull.](step_8.png)
-We observe that the synthesis is completed sucsessfully.
+We observe that the synthesis is completed successfully.
 
 ![Flop ratio.](step_9.png)
 We look for the flop ratio as presented above. 
