@@ -34,3 +34,12 @@ We observe that the total number of d flip-flops (dfxtp_2) is: 1613, and the tot
 
 ![Total chip area.](step_10.png)
 The total chip area is 147712.918400.
+
+![Synthesized netlist file.](step_11.png)
+![Synthesized netlist.](step_12.png)
+Then we observe the synthesized netlist.
+
+![Reports directory.](step_13.png)
+Finally we check the reports directory.
+
+
