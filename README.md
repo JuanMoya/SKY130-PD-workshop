@@ -65,3 +65,16 @@ Once the priority is identified, we run the floorplan of the synthesis obtained 
 
 ![The "run_floorplan" command ends.](Day2_6.png)
 We observe that the floorplan was successfully implemented.
+
+![The "less ioPlacer.log" command.](Day2_7.png)
+![The "less ioPlacer.log" file.](Day2_8.png)
+We open the "ioPlacer.log" with the "less ioPlacer.log" command.
+
+![The "less picorv32a.floorplan.def" file.](Day2_9.png)
+Then we open the "picorv32a.floorplan.def"
+
+![The magic command to open the layout.](Day2_10.png)
+The we run the magic command to open the layout in magic.
+
+![The layout in magic.](Day2_11.png)
+Then we can observe the floorplan in magic.
