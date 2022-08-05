@@ -90,3 +90,15 @@ We zoom in the layout to identify the metal for the i/o horizontal pins.
 
 ![Zoom in to see the standard cells in the down left corner.](Day2_15.png)
 We zoom in the layout to identify the standard cells in the down-left corner. It is importante to mention that the floorplan does not place the standard cells in the core area, that is why we observe them in the down-left corner.
+
+![The "run_placement" command for wire length reduction.](Day2_16.png)
+Then we reduce the wire length with the "run_placement" command.
+
+![The "run_placement" process is done.](Day2_17.png)
+We verify that the placement process is done.
+
+![Directory placement.](Day2_18.png)
+Now we see the design post placement with the following command.
+
+![Standard cell placement in magic.](Day2_19.png)
+Finally, in magic we observe the placement of the standard cells.
