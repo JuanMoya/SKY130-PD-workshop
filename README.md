@@ -78,3 +78,15 @@ The we run the magic command to open the layout in magic.
 
 ![The layout in magic.](Day2_11.png)
 Then we can observe the floorplan in magic.
+
+![Zoom in to see the pins distribution.](Day2_12.png)
+We zoom in the layout to identify the distance between the pins.
+
+![Zoom in to see the i/o horizontal pins in metal 3.](Day2_13.png)
+We zoom in the layout to identify the metal for the i/o horizontal pins.
+
+![Zoom in to see the i/o vertical pins in metal 2.](Day2_14.png)
+We zoom in the layout to identify the metal for the i/o horizontal pins.
+
+![Zoom in to see the standard cells in the down left corner.](Day2_15.png)
+We zoom in the layout to identify the standard cells in the down-left corner. It is importante to mention that the floorplan does not place the standard cells in the core area, that is why we observe them in the down-left corner.
