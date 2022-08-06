@@ -155,3 +155,15 @@ Next, we simulate the spice deck for the different wp and wn values.
 
 ![We download the labs.](Day3_16.png)
 Next, we do the lab exercise associated to Magic DRC. We download the labs in the openlane directory.
+
+![Poly file opened.](Day3_17.png)
+We open the poly file.
+
+![We look for the "poly.9" in the "SKY130A.tech" and modify it.](Day3_18.png)
+Then we open the "SKY130A.tech" and look for the "poly.9"
+
+![We include in the "SKY130A.tech" the "allpolynonres" rule.](Day3_19.png)
+We modify the file.
+
+![We observe the implementation of the rule.](Day3_20.png)
+We observe in Magic that the rule was correctly implemented.
