@@ -137,3 +137,15 @@ We run the ngspice command.
 
 ![We plot y and a vs time.](Day3_11.png)
 Let's plot.
+
+![We identify the time for the 0.66*Vdd.](Day3_12.png)
+Follow, we identify the rise time. Above, we see the 0.66*Vdd when the output is changing from gnd to Vdd.
+
+![we get the rise time.](Day3_13.png)
+Then we obtain the rise time. We observe that t_rise = 2.20299ns - 2.16162ns = 0.04137ns.
+
+![Plot to get the propagation delay.](Day3_14.png)
+We do the same process for the propagation delay(50% of Vdd for both input and output).
+
+![We get the propagation delay.](Day3_15.png)
+Then we obtain the rise time. We observe that t_propagation_delay = 2.1844ns - 2.15ns = 0.0344ns.
