@@ -112,4 +112,19 @@ We made changes in the configuration of I/O pins file to change the distance bet
 We change the variable FP_IO_MODE to 2 and then we run the "run_floorplan" command.
 
 ![We observe that the distance between pins has changed.](Day3_3.png)
-We observe the changes.
+We observe the changes in the distance between the pins.
+
+![We observe that the distance between pins has changed.](Day3_4.png)
+First of all let's clone the "vsdstdcelldesign" repository.
+
+![We copy the "sky130A.tech" file.](Day3_5.png)
+We copy the tech file in the vsdstdcelldesign file.
+
+![We identify the copied "sky130A.tech" file in vsdstdcelldesign.](Day3_6.png)
+We observe the copied file in vsdstdcelldesign.
+
+![We open magic with the inverter and technology files.](Day3_7.png)
+Then we open the file with technology file included.
+
+![We extract the inverter's parasitics and see the extracted file.](Day3_8.png)
+We create an extracted file, we extract all the parasitic capacitances and resistances, and we observe the created extracted file.
