@@ -175,3 +175,20 @@ We made the same process for the ppolyres and nsd and psd layer rules.
 ![Before including the cif.](Day3_23.png)
 ![After including the cif.](Day3_24.png)
 We do the same process for the nwell layer rules.
+
+![Last lab.](Day3_25.png)
+Finally, the last error is associated to nwell.4.
+
+![Change 1.](Day3_26.png)
+![Change 2.](Day3_27.png)
+![Change 3.](Day3_28.png)
+We do the respective changes.
+
+![We observe that the errors appear.](Day3_29.png)
+We identify the errors in magic ofr the nwell.4.
+
+![DRC(full) style.](Day3_30.png)
+We define the drc(full) style.
+
+![We prove that the error modification is verified.](Day3_31.png)
+Finally, we verify that the errors are shown.
