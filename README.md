@@ -167,3 +167,8 @@ We modify the file.
 
 ![We observe the implementation of the rule.](Day3_20.png)
 We observe in Magic that the rule was correctly implemented.
+
+![Before including th rule.](Day3_21.png)
+![After including th rule.](Day3_22.png)
+We made the same process for the ppolyres and nsd and psd layer rules.
+
