@@ -149,3 +149,9 @@ We do the same process for the propagation delay(50% of Vdd for both input and o
 
 ![We get the propagation delay.](Day3_15.png)
 Then we obtain the rise time. We observe that t_propagation_delay = 2.1844ns - 2.15ns = 0.0344ns.
+
+
+Next, we simulate the spice deck for the different wp and wn values.
+
+![We download the labs.](Day3_16.png)
+Next, we do the lab exercise associated to Magic DRC. We download the labs in the openlane directory.
