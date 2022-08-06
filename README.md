@@ -102,3 +102,14 @@ Now we see the design post placement with the following command.
 
 ![Standard cell placement in magic.](Day2_19.png)
 Finally, in magic we observe the placement of the standard cells.
+
+## Sky130 Day 3 - Design library cell using Magic Layout and ngspice characterization
+
+![Distance of the pins before changes in magic.](Day3_1.png)
+We made changes in the configuration of I/O pins file to change the distance between the pins. But let's take a look before.
+
+![We change the distance between pins.](Day3_2.png)
+We change the variable FP_IO_MODE to 2 and then we run the "run_floorplan" command.
+
+![We observe that the distance between pins has changed.](Day3_3.png)
+We observe the changes.
