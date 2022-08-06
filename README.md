@@ -128,3 +128,12 @@ Then we open the file with technology file included.
 
 ![We extract the inverter's parasitics and see the extracted file.](Day3_8.png)
 We create an extracted file, we extract all the parasitic capacitances and resistances, and we observe the created extracted file.
+
+![Extracted file ready to simulate.](Day3_9.png)
+We modify the extracted file to simulate the circuit by defining correctly the grid, include the libraries, define the analysis and assign values to the sources and ground.
+
+![Ngspice command run.](Day3_10.png)
+We run the ngspice command.
+
+![We plot y and a vs time.](Day3_11.png)
+Let's plot.
