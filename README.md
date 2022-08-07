@@ -213,3 +213,14 @@ We define the drc(full) style.
 
 ![We prove that the error modification is verified.](Day3_31.png)
 Finally, we verify that the errors are shown.
+
+## Sky130 Day 4 - Pre-layout timing analysis and importance of good clock tree
+
+![Track information of the different layers.](Day4_1.png)
+We observe the file associated to the tracks.
+
+![Grid set according to the track infomation.](Day4_2.png)
+We set the grid of the inverter magic file according to the track file and we observe that the pins are placed in the intersection between horizontal and vertical tracks.
+
+## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
+
