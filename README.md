@@ -364,8 +364,23 @@ We observe the all the proc for the run_cts command.
 ![ .tcl files in the openroad file.](Day4_42.png)
 We observe the .tcl files in the openroad folder. 
 
-![ Verification of different variables values](Day4_43.png)
+![ Verification of different variables values.](Day4_43.png)
 We verify different variables values after the run_cts command. 
+
+![ We open openroad.](Day4_44.png)
+We open openroad for timming analysis. 
+
+![ merged.lef file read.](Day4_45.png)
+We read the lef file. 
+
+![ picorv32a.cts.def file read.](Day4_46.png)
+We read the def file. 
+
+![ Commands for timming analysis.](Day4_49.png)
+We set the commands above for timming analysis.
+
+![ Results of the timming analysis.](Day4_50.png)
+We observe the results of timming analysis.
 
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
