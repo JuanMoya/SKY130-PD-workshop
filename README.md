@@ -337,10 +337,10 @@ We obtain a slack of -2.95.
 ![Hold slack value.](Day4_33.png)
 We show the hold slack of 0.24.
 
-!Fanout information.](Day4_34.png)
+![Fanout information.](Day4_34.png)
 We show part of the fanout information.
 
-!SYNTH_MAX_FANOUT = 4.](Day4_35.png)
+![SYNTH_MAX_FANOUT = 4.](Day4_35.png)
 We set the FANOUT variable to 4.
 
 ![New slack value.](Day4_36.png)
@@ -381,6 +381,27 @@ We set the commands above for timming analysis.
 
 ![ Results of the timming analysis.](Day4_50.png)
 We observe the results of timming analysis.
+
+![ ](Day4_51.png)
+We open openroad and set the variables.
+
+![ ](Day4_52.png)
+We set the report command.
+
+![ ](Day4_53.png)
+We see the associated slack value, which is 3.9317.
+
+![ ](Day4_54.png)
+We see the associated slack value for the hold, which is -0.0188.
+
+![ ](Day4_55.png)
+We set the variable for the clk buffer list.
+
+![ ](Day4_56.png)
+We obtain the error presented in the video.
+
+![ ](Day4_57.png)
+We need to configure again the variables.
 
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
