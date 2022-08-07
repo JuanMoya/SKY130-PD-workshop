@@ -150,8 +150,29 @@ We do the same process for the propagation delay(50% of Vdd for both input and o
 ![We get the propagation delay.](Day3_15.png)
 Then we obtain the rise time. We observe that t_propagation_delay = 2.1844ns - 2.15ns = 0.0344ns.
 
+![Model and setup configuration.](Day3_33.png)
+Next, we simulate the spice deck for the different wp and wn values. Above we present the .cir file. 
 
-Next, we simulate the spice deck for the different wp and wn values.
+![Inverter DC simulation.](Day3_34.png)
+We observe the DC simulation of the output against the input. 
+
+![We identify the switching threshold voltage .](Day3_35.png)
+The switching threshold voltage Vm is approximately 1.288V. 
+
+Next, we present the results for different Wn/Ln to see how the switching threshold voltage changes.
+
+ratio pmos = 1.5; ratio pmos = 1.5 --> Vm = 1.288V
+
+ratio pmos = 1.5; ratio pmos = 3 --> Vm = 1.096V
+
+ratio pmos = 1.5; ratio pmos = 4.5 --> Vm = 1.055V
+
+ratio pmos = 1.5; ratio pmos = 6 --> Vm = 0.97V
+
+ratio pmos = 1.5; ratio pmos = 7.5 --> Vm = 0.93V
+
+![Inverter DC simulation for ratio pmos = 1.5 and ratio pmos = 7.5.](Day3_35.png)
+The switching threshold voltage Vm is approximately 0.93V. 
 
 ![We download the labs.](Day3_16.png)
 Next, we do the lab exercise associated to Magic DRC. We download the labs in the openlane directory.
