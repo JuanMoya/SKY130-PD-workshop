@@ -333,5 +333,28 @@ We run the "pre_sta.conf" file.
 
 ![We obtain the corresponding slack.](Day4_32.png)
 We obtain a slack of -2.95.
+
+![Hold slack value.](Day4_33.png)
+We show the hold slack of 0.24.
+
+!Fanout information.](Day4_34.png)
+We show part of the fanout information.
+
+!SYNTH_MAX_FANOUT = 4.](Day4_35.png)
+We set the FANOUT variable to 4.
+
+![New slack value.](Day4_36.png)
+We show the new slack value 4.56.
+
+!["run_cts" command.](Day4_37.png)
+Then we run the cts command.
+
+![The clock tree synthesis was successful.](Day4_38.png)
+We observe that the clock tree synthesis was successful.
+
+![ The picrorv32a.synthesis_cts.v file was created.](Day4_39.png)
+We observe that the picrorv32a.synthesis_cts.v file was created.
+
+
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
