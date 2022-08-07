@@ -317,9 +317,10 @@ We verified the .def file in magic.
 We identified the sky130_vsdinv cell in the placement.
 
 ![Lef view possible with the expand command.](Day4_27.png)
-We do the "expand" command in the tkcon to see the lef view..
+We do the "expand" command in the tkcon to see the lef view.
 
-
+![The slack is 4.39.](Day4_28.png)
+We observe that the slack is positive.
 
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
