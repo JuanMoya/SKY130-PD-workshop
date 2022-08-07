@@ -355,6 +355,17 @@ We observe that the clock tree synthesis was successful.
 ![ The picrorv32a.synthesis_cts.v file was created.](Day4_39.png)
 We observe that the picrorv32a.synthesis_cts.v file was created.
 
+![ All the .tcl files.](Day4_40.png)
+We observe all the .tcl files in the tcl_commands folder.
+
+![ run_cts command procs.](Day4_41.png)
+We observe the all the proc for the run_cts command. 
+
+![ .tcl files in the openroad file.](Day4_42.png)
+We observe the .tcl files in the openroad folder. 
+
+![ Verification of different variables values](Day4_43.png)
+We verify different variables values after the run_cts command. 
 
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
