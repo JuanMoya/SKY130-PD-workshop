@@ -239,5 +239,19 @@ We verify that the LEF file is created.
 ![LEF file information.](Day4_7.png)
 We open the LEF file.
 
+![Copied files in the src folder.](Day4_9.png)
+We copy the .lef and libraries in the src file to be part of the flow.
+
+Then, we modify the config.tcl.
+
+![Before modifications.](Day4_10.png)
+The config.tcl before modifications.
+
+![After modifications.](Day4_11.png)
+The config.tcl after modifications.
+
+
+
+
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
