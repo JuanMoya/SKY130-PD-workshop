@@ -171,7 +171,7 @@ ratio pmos = 1.5; ratio pmos = 6 --> Vm = 0.97V
 
 ratio pmos = 1.5; ratio pmos = 7.5 --> Vm = 0.93V
 
-![Inverter DC simulation for ratio pmos = 1.5 and ratio pmos = 7.5.](Day3_35.png)
+![Inverter DC simulation for ratio pmos = 1.5 and ratio pmos = 7.5.](Day3_36.png)
 The switching threshold voltage Vm is approximately 0.93V. 
 
 ![We download the labs.](Day3_16.png)
