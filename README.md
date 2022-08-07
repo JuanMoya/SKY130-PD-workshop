@@ -266,5 +266,60 @@ We observe that the synthesis was successful.
 ![tns and wns values.](Day4_15.png)
 We observe the tns and wns values.
 
+![Current chip area.](Day4_15a.png)
+The current chip area is 147712.918400 um2.
+
+![Variable modifications.](Day4_16.png)
+Then we define the variables to change strategy.
+
+![Skipping synthesis.](Day4_17.png)
+We rerun the synthesis but there already exists the ".synthesis.v" file.
+
+![Renaming old "synthesis.v" file.](Day4_18.png)
+I rename the ".synthesis.v" file to avoid conflicts.
+
+![Error with the "::env(SYNTH_STRATEGY)" variable definition.](Day4_19.png)
+I rerun the synthesis but I got an error since the "::env(SYNTH_STRATEGY)" was not correctly defined.
+
+![Correct definition of the "::env(SYNTH_STRATEGY)" variable.](Day4_20.png)
+I correctly define "::env(SYNTH_STRATEGY)".
+
+![Synthesis successful.](Day4_21.png)
+Then I rerun the synthesis and it was successful.
+
+![New area for the new strategy.](Day4_22.png)
+The new area is 209181.872000 um2.
+
+![Placement command error.](Day4_23.png)
+I run the placement and got the error above.
+
+The old command of the flow was: "run_placement", the new sequence is:
+
+init_floorplan
+
+place_io
+
+global_placement_or
+
+detailed_placement
+
+tap_decap_or
+
+detailed_placement
+
+![Check Legality passes.](Day4_24.png)
+Once I ran the sequence above, the legality passes completely.
+
+![Verification of the .def file.](Day4_25.png)
+We verified the .def file in magic.
+
+![Verification of the sky130_vsdinv cell in the placement.](Day4_26.png)
+We identified the sky130_vsdinv cell in the placement.
+
+![Lef view possible with the expand command.](Day4_27.png)
+We do the "expand" command in the tkcon to see the lef view..
+
+
+
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
