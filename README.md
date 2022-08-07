@@ -161,18 +161,20 @@ The switching threshold voltage Vm is approximately 1.288V.
 
 Next, we present the results for different Wn/Ln to see how the switching threshold voltage changes.
 
-ratio pmos = 1.5; ratio pmos = 1.5 --> Vm = 1.288V
+ratio pmos = 1.5; ratio nmos = 1.5 --> Vm = 1.288V
 
-ratio pmos = 1.5; ratio pmos = 3 --> Vm = 1.096V
+ratio pmos = 1.5; ratio nmos = 3 --> Vm = 1.096V
 
-ratio pmos = 1.5; ratio pmos = 4.5 --> Vm = 1.055V
+ratio pmos = 1.5; ratio nmos = 4.5 --> Vm = 1.055V
 
-ratio pmos = 1.5; ratio pmos = 6 --> Vm = 0.97V
+ratio pmos = 1.5; ratio nmos = 6 --> Vm = 0.97V
 
-ratio pmos = 1.5; ratio pmos = 7.5 --> Vm = 0.93V
+ratio pmos = 1.5; ratio nmos = 7.5 --> Vm = 0.93V
 
 ![Inverter DC simulation for ratio pmos = 1.5 and ratio pmos = 7.5.](Day3_36.png)
 The switching threshold voltage Vm is approximately 0.93V. 
+
+As expected, the Vm value decreases as the nmos ratio increases.
 
 ![We download the labs.](Day3_16.png)
 Next, we do the lab exercise associated to Magic DRC. We download the labs in the openlane directory.
