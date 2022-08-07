@@ -224,5 +224,20 @@ We observe the file associated to the tracks.
 ![Grid set according to the track infomation.](Day4_2.png)
 We set the grid of the inverter magic file according to the track file and we observe that the pins are placed in the intersection between horizontal and vertical tracks.
 
+![Copy of the inverter file.](Day4_3.png)
+We make a copy of the inverter file to  incorporate in the physical design flow.
+
+![We open the inverter file.](Day4_4.png)
+We open the copied file to verify that it is ok.
+
+![LEF file created.](Day4_5.png)
+We create the LEF file.
+
+![LEF file verification.](Day4_6.png)
+We verify that the LEF file is created.
+
+![LEF file information.](Day4_7.png)
+We open the LEF file.
+
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
