@@ -322,5 +322,16 @@ We do the "expand" command in the tkcon to see the lef view.
 ![The slack is 4.39.](Day4_28.png)
 We observe that the slack is positive.
 
+![pre_sta.conf file configured correctly.](Day4_29.png)
+We modify the pre_sta.conf file.
+
+![my_base.sdc file configured correctly.](Day4_30.png)
+We modify the my_base.sdc file.
+
+![sta pre_sta.conf file run.](Day4_31.png)
+We run the "pre_sta.conf" file.
+
+![We obtain the corresponding slack.](Day4_32.png)
+We obtain a slack of -2.95.
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
