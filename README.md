@@ -284,7 +284,7 @@ I rerun the synthesis but I got an error since the "::env(SYNTH_STRATEGY)" was n
 ![Correct definition of the "::env(SYNTH_STRATEGY)" variable.](Day4_20.png)
 I correctly define "::env(SYNTH_STRATEGY)".
 
-![Synthesis successful.](Day4_21.png)
+![Synthesis successful.](Day4_21a.png)
 Then I rerun the synthesis and it was successful.
 
 ![New area for the new strategy.](Day4_22.png)
