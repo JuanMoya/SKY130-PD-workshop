@@ -346,6 +346,31 @@ We set the FANOUT variable to 4.
 ![New slack value.](Day4_36.png)
 We show the new slack value 4.56.
 
+![](Day4_36a.png)
+We observe the different cells in the report.
+
+![](Day4_36b.png)
+We do a "report_net -connections _18851_" command to see the connections.
+
+![](Day4_36c.png)
+We observe a more interesting case with the _42093 instance which is made of mux2_1.
+
+![](Day4_36d.png)
+We replace the mux2_1 cell with mux2_4 cell with the command "replace_cell _42093_ sky130_fd_sc_hd_mux2_4" command.
+
+![](Day4_36e.png)
+We do "report_checks -fields {net cap slew input_pins} -digits 4" command to generate the new report.
+
+![](Day4_36f.png)
+We observe that the slack reduces to -2.1794.
+
+![](Day4_36g.png)
+We rewrite the synthesis.v file to include the new changes.
+
+![](Day4_36h.png)
+We observe the new intance changes in the rewrite file.
+
+
 !["run_cts" command.](Day4_37.png)
 Then we run the cts command.
 
