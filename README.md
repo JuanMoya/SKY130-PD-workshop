@@ -405,3 +405,11 @@ We need to configure again the variables.
 
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
+![The "gen_pdn" command for PDN generatioN.](Day5_1.png)
+We open openlane and run the "gen_pdn" command.
+
+![PDN generation was successful.](Day5_2.png)
+We identify the PDN generation was successful.
+
+![The "run_routing".](Day5_3.png)
+Finally, we run routing.
