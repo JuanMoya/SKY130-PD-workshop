@@ -370,6 +370,22 @@ We rewrite the synthesis.v file to include the new changes.
 ![](Day4_36h.png)
 We observe the new intance changes in the rewrite file.
 
+We rerun the following commands (we don not run synthesis because the synthesis.v will be written again and we don't want to lose the changes).
+
+init_floorplan
+
+place_io
+
+global_placement_or
+
+detailed_placement
+
+tap_decap_or
+
+detailed_placement
+
+![](Day4_36i.png)
+In the "detailed_placement_or" step we observe that the slack is better.
 
 !["run_cts" command.](Day4_37.png)
 Then we run the cts command.
