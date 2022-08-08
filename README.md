@@ -409,7 +409,7 @@ We observe the .tcl files in the openroad folder.
 We verify different variables values after the run_cts command. 
 
 ![ We open openroad.](Day4_44.png)
-We open openroad for timming analysis. 
+We open openroad for timming analysis just after the openLANE flow. 
 
 ![ merged.lef file read.](Day4_45.png)
 We read the lef file. 
