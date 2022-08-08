@@ -449,6 +449,9 @@ We set the variables.
 
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
+![](Day5_0.png)
+We verify that the variable is ok.
+
 ![The "gen_pdn" command for PDN generatioN.](Day5_1.png)
 We open openlane and run the "gen_pdn" command.
 
