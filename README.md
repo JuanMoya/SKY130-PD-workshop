@@ -444,6 +444,9 @@ We obtain the error presented in the video.
 ![ ](Day4_57.png)
 We need to configure again the variables.
 
+![ ](Day4_58.png)
+We set the variables.
+
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
 ![The "gen_pdn" command for PDN generatioN.](Day5_1.png)
