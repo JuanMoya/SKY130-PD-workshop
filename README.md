@@ -420,7 +420,7 @@ We read the def file.
 ![ Commands for timming analysis.](Day4_49.png)
 We set the commands above for timming analysis.
 
-![ Results of the timming analysis.](Day4_50.png)
+![ Results of the timming analysis.](Day4_50a.png)
 We observe the results of timming analysis.
 
 ![ ](Day4_51.png)
