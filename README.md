@@ -388,7 +388,7 @@ detailed_placement
 In the "detailed_placement_or" step we observe that the slack is better.
 
 !["run_cts" command.](Day4_37.png)
-Then we run the cts command.
+Then we run the cts command after second the "detailed_placement_or" command.
 
 ![The clock tree synthesis was successful.](Day4_38.png)
 We observe that the clock tree synthesis was successful.
