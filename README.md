@@ -413,3 +413,6 @@ We identify the PDN generation was successful.
 
 ![The "run_routing".](Day5_3.png)
 Finally, we run routing.
+
+![Several iterations for routing.](Day5_4.png)
+We observe the iterations.
