@@ -453,7 +453,7 @@ We set the variables.
 We verify that the variable is ok.
 
 ![The "gen_pdn" command for PDN generatioN.](Day5_1.png)
-We open openlane and run the "gen_pdn" command.
+We open openlane and run the "gen_pdn" command for power distribution network.
 
 ![PDN generation was successful.](Day5_2.png)
 We identify the PDN generation was successful.
