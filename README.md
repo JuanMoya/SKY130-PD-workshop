@@ -415,4 +415,13 @@ We identify the PDN generation was successful.
 Finally, we run routing.
 
 ![Several iterations for routing.](Day5_4.png)
-We observe the iterations.
+We observe the some iterations.
+
+![We have 0 violations.](Day5_5.png)
+After several minutes and iteratios, we have 0 violations.
+
+![Routing was successfull.](Day5_6.png)
+We observed that the routing finished successfully.
+
+![the .spef file was created.](Day5_8.png)
+We observed that the .spef file was created.
