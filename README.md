@@ -470,5 +470,12 @@ After several minutes and iteratios, we have 0 violations.
 ![Routing was successfull.](Day5_6.png)
 We observed that the routing finished successfully.
 
-![the .spef file was created.](Day5_8.png)
-We observed that the .spef file was created.
+![the .spef and .def files were created.](Day5_8.png)
+We observed that the .spef and .def files were created.
+
+![](Day5_10.png)
+We use the magic command to open the final layout.
+
+![](Day5_9.png)
+The final layout.
+
