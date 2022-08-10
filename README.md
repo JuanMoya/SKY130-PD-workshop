@@ -106,58 +106,58 @@ Finally, in magic we observe the placement of the standard cells.
 
 ## Sky130 Day 3 - Design library cell using Magic Layout and ngspice characterization
 
-![Distance of the pins before changes in magic.](Day3_1.png)
+![Distance of the pins before changes in magic.](/Day3_images/Day3_1.png)
 We made changes in the configuration of I/O pins file to change the distance between the pins. But let's take a look before.
 
-![We change the distance between pins.](Day3_2.png)
+![We change the distance between pins.](/Day3_images/Day3_2.png)
 We change the variable FP_IO_MODE to 2 and then we run the "run_floorplan" command.
 
-![We observe that the distance between pins has changed.](Day3_3.png)
+![We observe that the distance between pins has changed.](/Day3_images/Day3_3.png)
 We observe the changes in the distance between the pins.
 
-![We observe that the distance between pins has changed.](Day3_4.png)
+![We observe that the distance between pins has changed.](/Day3_images/Day3_4.png)
 First of all let's clone the "vsdstdcelldesign" repository.
 
-![We copy the "sky130A.tech" file.](Day3_5.png)
+![We copy the "sky130A.tech" file.](/Day3_images/Day3_5.png)
 We copy the tech file in the vsdstdcelldesign file.
 
-![We identify the copied "sky130A.tech" file in vsdstdcelldesign.](Day3_6.png)
+![We identify the copied "sky130A.tech" file in vsdstdcelldesign.](/Day3_images/Day3_6.png)
 We observe the copied file in vsdstdcelldesign.
 
-![We open magic with the inverter and technology files.](Day3_7.png)
+![We open magic with the inverter and technology files.](/Day3_images/Day3_7.png)
 Then we open the file with technology file included.
 
-![We extract the inverter's parasitics and see the extracted file.](Day3_8.png)
+![We extract the inverter's parasitics and see the extracted file.](/Day3_images/Day3_8.png)
 We create an extracted file, we extract all the parasitic capacitances and resistances, and we observe the created extracted file.
 
-![Extracted file ready to simulate.](Day3_9.png)
+![Extracted file ready to simulate.](/Day3_images/Day3_9.png)
 We modify the extracted file to simulate the circuit by defining correctly the grid, include the libraries, define the analysis and assign values to the sources and ground.
 
-![Ngspice command run.](Day3_10.png)
+![Ngspice command run.](/Day3_images/Day3_10.png)
 We run the ngspice command.
 
-![We plot y and a vs time.](Day3_11.png)
+![We plot y and a vs time.](/Day3_images/Day3_11.png)
 Let's plot.
 
-![We identify the time for the 0.66*Vdd.](Day3_12.png)
+![We identify the time for the 0.66*Vdd.](/Day3_images/Day3_12.png)
 Follow, we identify the rise time. Above, we see the 0.66*Vdd when the output is changing from gnd to Vdd.
 
-![we get the rise time.](Day3_13.png)
+![we get the rise time.](/Day3_images/Day3_13.png)
 Then we obtain the rise time. We observe that t_rise = 2.20299ns - 2.16162ns = 0.04137ns.
 
-![Plot to get the propagation delay.](Day3_14.png)
+![Plot to get the propagation delay.](/Day3_images/Day3_14.png)
 We do the same process for the propagation delay(50% of Vdd for both input and output).
 
-![We get the propagation delay.](Day3_15.png)
+![We get the propagation delay.](/Day3_images/Day3_15.png)
 Then we obtain the rise time. We observe that t_propagation_delay = 2.1844ns - 2.15ns = 0.0344ns.
 
-![Model and setup configuration.](Day3_33.png)
+![Model and setup configuration.](/Day3_images/Day3_33.png)
 Next, we simulate the spice deck for the different wp and wn values. Above we present the .cir file. 
 
-![Inverter DC simulation.](Day3_34.png)
+![Inverter DC simulation.](/Day3_images/Day3_34.png)
 We observe the DC simulation of the output against the input. 
 
-![We identify the switching threshold voltage .](Day3_35.png)
+![We identify the switching threshold voltage .](/Day3_images/Day3_35.png)
 The switching threshold voltage Vm is approximately 1.288V. 
 
 Next, we present the results for different Wn/Ln to see how the switching threshold voltage changes.
@@ -172,49 +172,49 @@ ratio pmos = 1.5; ratio nmos = 6 --> Vm = 0.97V
 
 ratio pmos = 1.5; ratio nmos = 7.5 --> Vm = 0.93V
 
-![Inverter DC simulation for ratio pmos = 1.5 and ratio pmos = 7.5.](Day3_36.png)
+![Inverter DC simulation for ratio pmos = 1.5 and ratio pmos = 7.5.](/Day3_images/Day3_36.png)
 The switching threshold voltage Vm is approximately 0.93V. 
 
 As expected, the Vm value decreases as the nmos ratio increases.
 
-![We download the labs.](Day3_16.png)
+![We download the labs.](/Day3_images/Day3_16.png)
 Next, we do the lab exercise associated to Magic DRC. We download the labs in the openlane directory.
 
-![Poly file opened.](Day3_17.png)
+![Poly file opened.](/Day3_images/Day3_17.png)
 We open the poly file.
 
-![We look for the "poly.9" in the "SKY130A.tech" and modify it.](Day3_18.png)
+![We look for the "poly.9" in the "SKY130A.tech" and modify it.](/Day3_images/Day3_18.png)
 Then we open the "SKY130A.tech" and look for the "poly.9"
 
-![We include in the "SKY130A.tech" the "allpolynonres" rule.](Day3_19.png)
+![We include in the "SKY130A.tech" the "allpolynonres" rule.](/Day3_images/Day3_19.png)
 We modify the file.
 
-![We observe the implementation of the rule.](Day3_20.png)
+![We observe the implementation of the rule.](/Day3_images/Day3_20.png)
 We observe in Magic that the rule was correctly implemented.
 
-![Before including the rule.](Day3_21.png)
-![After including the rule.](Day3_22.png)
+![Before including the rule.](/Day3_images/Day3_21.png)
+![After including the rule.](/Day3_images/Day3_22.png)
 We made the same process for the ppolyres and nsd and psd layer rules.
 
-![Before including the cif.](Day3_23.png)
-![After including the cif.](Day3_24.png)
+![Before including the cif.](/Day3_images/Day3_23.png)
+![After including the cif.](/Day3_images/Day3_24.png)
 We do the same process for the nwell layer rules.
 
-![Last lab.](Day3_25.png)
+![Last lab.](/Day3_images/Day3_25.png)
 Finally, the last error is associated to nwell.4.
 
-![Change 1.](Day3_26.png)
-![Change 2.](Day3_27.png)
-![Change 3.](Day3_28.png)
+![Change 1.](/Day3_images/Day3_26.png)
+![Change 2.](/Day3_images/Day3_27.png)
+![Change 3.](/Day3_images/Day3_28.png)
 We do the respective changes.
 
-![We observe that the errors appear.](Day3_29.png)
+![We observe that the errors appear.](/Day3_images/Day3_29.png)
 We identify the errors in magic ofr the nwell.4.
 
-![DRC(full) style.](Day3_30.png)
+![DRC(full) style.](/Day3_images/Day3_30.png)
 We define the drc(full) style.
 
-![We prove that the error modification is verified.](Day3_31.png)
+![We prove that the error modification is verified.](/Day3_images/Day3_31.png)
 Finally, we verify that the errors are shown.
 
 ## Sky130 Day 4 - Pre-layout timing analysis and importance of good clock tree
