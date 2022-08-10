@@ -450,33 +450,33 @@ We set the variables.
 
 ## Sky130 Day 5 - Final steps for RTL2GDS using TritonRoute and openSTA
 
-![](Day5_0.png)
+![](/Day5_images/Day5_0.png)
 We verify that the variable is ok.
 
-![The "gen_pdn" command for PDN generatioN.](Day5_1.png)
+![The "gen_pdn" command for PDN generatioN.](/Day5_images/Day5_1.png)
 We open openlane and run the "gen_pdn" command for power distribution network.
 
-![PDN generation was successful.](Day5_2.png)
+![PDN generation was successful.](/Day5_images/Day5_2.png)
 We identify the PDN generation was successful.
 
-![The "run_routing".](Day5_3.png)
+![The "run_routing".](/Day5_images/Day5_3.png)
 Finally, we run routing.
 
-![Several iterations for routing.](Day5_4.png)
+![Several iterations for routing.](/Day5_images/Day5_4.png)
 We observe the some iterations.
 
-![We have 0 violations.](Day5_5.png)
+![We have 0 violations.](/Day5_images/Day5_5.png)
 After several minutes and iteratios, we have 0 violations.
 
-![Routing was successfull.](Day5_6.png)
+![Routing was successfull.](/Day5_images/Day5_6.png)
 We observed that the routing finished successfully.
 
-![the .spef and .def files were created.](Day5_8.png)
+![the .spef and .def files were created.](/Day5_images/Day5_8.png)
 We observed that the .spef and .def files were created.
 
-![](Day5_10.png)
+![](/Day5_images/Day5_10.png)
 We use the magic command to open the final layout.
 
-![](Day5_9.png)
+![](/Day5_images/Day5_9.png)
 The final layout.
 
