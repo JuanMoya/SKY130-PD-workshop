@@ -47,61 +47,61 @@ Finally we check the reports directory.
 
 ## Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells (Lab Instance 1)
 
-![Definition of the variables for the different steps.](Day2_1.png)
+![Definition of the variables for the different steps.](/Day2_images/Day2_1.png)
 In the "/home/jsmoya07/Desktop/work/tools/openlane_working_dir/openlane/configuration" we enter the README.md file and we observe the variables used in each step.
 
-![Default parameters set for the floorplan stage.](Day2_2.png)
+![Default parameters set for the floorplan stage.](/Day2_images/Day2_2.png)
 Then we open the "floorplan.tcl".
 
-![Default parameters set in the "config.tcl".](Day2_3.png)
+![Default parameters set in the "config.tcl".](/Day2_images/Day2_3.png)
 Then we open the "config.tcl".
 
-![Default parameters set in the "config.tcl".](Day2_4.png)
+![Default parameters set in the "config.tcl".](/Day2_images/Day2_4.png)
 Then we open the "sky130A_sky130_fd_sc_hd_config.tcl "
 
 The priority order for the settings is "sky130A_sky130_fd_sc_hd_config.tcl" --> "config.tcl" --> "floorplan.tcl".
 
-![We run the "run_floorplan".](Day2_5.png)
+![We run the "run_floorplan".](/Day2_images/Day2_5.png)
 Once the priority is identified, we run the floorplan of the synthesis obtained above. It is important to mention that floorplan must be run after the synthesis command. If we shut down the session or close openlane (close the terminal), the prep and synthesis commands must be run again.
 
-![The "run_floorplan" command ends.](Day2_6.png)
+![The "run_floorplan" command ends.](/Day2_images/Day2_6.png)
 We observe that the floorplan was successfully implemented.
 
-![The "less ioPlacer.log" command.](Day2_7.png)
+![The "less ioPlacer.log" command.](/Day2_images/Day2_7.png)
 ![The "less ioPlacer.log" file.](Day2_8.png)
 We open the "ioPlacer.log" with the "less ioPlacer.log" command.
 
-![The "less picorv32a.floorplan.def" file.](Day2_9.png)
+![The "less picorv32a.floorplan.def" file.](/Day2_images/Day2_9.png)
 Then we open the "picorv32a.floorplan.def"
 
-![The magic command to open the layout.](Day2_10.png)
+![The magic command to open the layout.](/Day2_images/Day2_10.png)
 The we run the magic command to open the layout in magic.
 
-![The layout in magic.](Day2_11.png)
+![The layout in magic.](/Day2_images/Day2_11.png)
 Then we can observe the floorplan in magic.
 
-![Zoom in to see the pins distribution.](Day2_12.png)
+![Zoom in to see the pins distribution.](/Day2_images/Day2_12.png)
 We zoom in the layout to identify the distance between the pins.
 
-![Zoom in to see the i/o horizontal pins in metal 3.](Day2_13.png)
+![Zoom in to see the i/o horizontal pins in metal 3.](/Day2_images/Day2_13.png)
 We zoom in the layout to identify the metal for the i/o horizontal pins.
 
-![Zoom in to see the i/o vertical pins in metal 2.](Day2_14.png)
+![Zoom in to see the i/o vertical pins in metal 2.](/Day2_images/Day2_14.png)
 We zoom in the layout to identify the metal for the i/o horizontal pins.
 
-![Zoom in to see the standard cells in the down left corner.](Day2_15.png)
+![Zoom in to see the standard cells in the down left corner.](/Day2_images/Day2_15.png)
 We zoom in the layout to identify the standard cells in the down-left corner. It is importante to mention that the floorplan does not place the standard cells in the core area, that is why we observe them in the down-left corner.
 
-![The "run_placement" command for wire length reduction.](Day2_16.png)
+![The "run_placement" command for wire length reduction.](/Day2_images/Day2_16.png)
 Then we reduce the wire length with the "run_placement" command.
 
-![The "run_placement" process is done.](Day2_17.png)
+![The "run_placement" process is done.](/Day2_images/Day2_17.png)
 We verify that the placement process is done.
 
-![Directory placement.](Day2_18.png)
+![Directory placement.](/Day2_images/Day2_18.png)
 Now we see the design post placement with the following command.
 
-![Standard cell placement in magic.](Day2_19.png)
+![Standard cell placement in magic.](/Day2_images/Day2_19.png)
 Finally, in magic we observe the placement of the standard cells.
 
 ## Sky130 Day 3 - Design library cell using Magic Layout and ngspice characterization
